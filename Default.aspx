@@ -8,41 +8,53 @@
 
     <div class="container mt-5 mb-5">
         <div class="row">
+
+            <%
+                foreach (Dominio.Articulos Art in ListaArticulos)
+                {
+                    string carouselId = "carousel_" + Art.IdProductos;
+            %>
             <div class="col">
                 <div class="card ">
                     <div class="card-details">
-                        <p class="text-title">Producto 1</p>
-                        <p class="text-codigo">Código del producto</p>
-                        <p class="text-body">Descripción del producto</p>
-                        <p class="text-marca">Marca del producto</p>
+                        <div class="card-img-top">
+                            <div id="<%= carouselId %>" class="carousel slide" data-bs-ride="false">
+
+                                <div class="carousel-inner">
+                                    <%var imagenesArticulo = ListarImagenes.Where(img => img.IdArticulo == Art.IdProductos).ToList();
+                                        bool firstImage = true;
+                                        foreach (Dominio.Imagenes Img in imagenesArticulo)
+                                        {
+
+                                    %>
+
+                                            <div class="carousel-item <%= (firstImage ? "active" : "") %>">
+
+                                            <img src="<%= Img.ImagenUrl %>" alt="<%:Art.Nombre %>" class="img-fluid" />
+                                            </div>
+                                          <% firstImage = false;
+                                        } %>
+                                </div>
+
+                                <button class="carousel-control-prev" type="button" data-bs-target="#<%= carouselId %>" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#<%= carouselId %>" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <p class="text-title"><%:Art.Nombre %></p>
+                        <p class="text-codigo"><%:Art.CodArticulo%></p>
+                        <p class="text-body"><%:Art.Descripcion%></p>
+                        <p class="text-marca"><%:Art.Marca%></p>
                     </div>
                     <button class="card-button" onclick="mostrarFormVoucher()">Canjear</button>
                 </div>
             </div>
 
-            <div class="col">
-                <div class="card ">
-                    <div class="card-details">
-                        <p class="text-title">Producto 2</p>
-                        <p class="text-codigo">Código del producto</p>
-                        <p class="text-body">Descripción del producto</p>
-                        <p class="text-marca">Marca del producto</p>
-                    </div>
-                    <button class="card-button" onclick="mostrarFormVoucher()">Canjear</button>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card ">
-                    <div class="card-details">
-                        <p class="text-title">Producto 3</p>
-                        <p class="text-codigo">Código del producto</p>
-                        <p class="text-body">Descripción del producto</p>
-                        <p class="text-marca">Marca del producto</p>
-                    </div>
-                    <button class="card-button" onclick="mostrarFormVoucher()">Canjear</button>
-                </div>
-            </div>
+            <% }%>
         </div>
     </div>
     <div id="registro-voucher" class="overlay">
@@ -52,7 +64,8 @@
             <asp:TextBox ID="TxbCodigo" placeholder="Código" class="form-control mb-3 mt-3" name="codigo" required runat="server"></asp:TextBox>
             <div class="row mb-3 mt-3" style="text-align: center;">
                 <div class="col">
-                    <button class="B_serch" style="width: 150px;">Ingresar</button>
+                    <!--<button class="B_serch" style="width: 150px;">Ingresar</button>-->
+                    <asp:Button ID="BtnIngresar" class="B_serch" Style="width: 150px;" runat="server" Text="Ingresar" />
                 </div>
                 <div class="col">
                     <button class="B_serch " style="width: 150px;" onclick="cerrarFormVoucher()">Cerrar</button>
