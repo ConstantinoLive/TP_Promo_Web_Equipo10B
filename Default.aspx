@@ -18,24 +18,21 @@
                 <div class="card ">
                     <div class="card-details">
                         <div class="card-img-top">
-                            <div id="<%= carouselId %>" class="carousel slide" data-bs-ride="false">
-
-                                <div class="carousel-inner">
-                                    <%var imagenesArticulo = ListarImagenes.Where(img => img.IdArticulo == Art.IdProductos).ToList();
+                            <div id="<%= carouselId %>" class="carousel slide" data-bs-ride="false" >
+                                <div class="carousel-inner"> 
+                                    <%
+                                        var imagenesArticulo = ListarImagenes.Where(img => img.IdArticulo == Art.IdProductos).ToList();
                                         bool firstImage = true;
                                         foreach (Dominio.Imagenes Img in imagenesArticulo)
                                         {
-
                                     %>
+                                            <div class="carousel-item <%= firstImage ? "active" : "" %>">
 
-                                            <div class="carousel-item <%= (firstImage ? "active" : "") %>">
-
-                                            <img src="<%= Img.ImagenUrl %>" alt="<%:Art.Nombre %>" class="img-fluid" />
+                                            <img src="<%= Img.ImagenUrl %>" alt="<%:Art.Nombre %>" class="d-block w-100 h-100" style="object-fit: contain;" />
                                             </div>
                                           <% firstImage = false;
                                         } %>
                                 </div>
-
                                 <button class="carousel-control-prev" type="button" data-bs-target="#<%= carouselId %>" data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon"></span>
                                 </button>
