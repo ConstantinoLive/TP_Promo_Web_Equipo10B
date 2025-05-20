@@ -13,13 +13,25 @@ namespace TP_Promo_Web_Equipo10B
     {
         public List<Articulos>ListaArticulos {  get; set; }
         public List<Imagenes>ListarImagenes { get; set; }
+
+      
         protected void Page_Load(object sender, EventArgs e)
         {
-            ArticuloDatos articulos = new ArticuloDatos();
-            ListaArticulos = articulos.listar();
+           
+                ArticuloDatos articulos = new ArticuloDatos();
+                ListaArticulos = articulos.listar();
 
-            ImagenesDatos imagenes = new ImagenesDatos();
-            ListarImagenes=imagenes.listarImagenes();
+                ImagenesDatos imagenes = new ImagenesDatos();
+                ListarImagenes = imagenes.listarImagenes();
+
+                
+            
+        }
+
+        protected void BtnSaludo_Click(object sender, EventArgs e)
+        {
+            string nombre=TxtNombre.Text;
+            LblHola.Text ="Hola"+ nombre;
         }
     }
 }

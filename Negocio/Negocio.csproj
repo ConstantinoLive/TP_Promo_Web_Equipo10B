@@ -44,6 +44,7 @@
     <Compile Include="AccesoDatos.cs" />
     <Compile Include="ArticuloDatos.cs" />
     <Compile Include="CategoriaDatos.cs" />
+    <Compile Include="ClientesDatos.cs" />
     <Compile Include="CnxnTbArticulo.cs" />
     <Compile Include="CnxnTbCategorias.cs" />
     <Compile Include="CnxnTbImagenes.cs" />

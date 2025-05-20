@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
 
+
 namespace TP_Promo_Web_Equipo10B
 {
     public class Global : System.Web.HttpApplication

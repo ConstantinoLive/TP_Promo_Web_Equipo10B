@@ -4,169 +4,162 @@
 
 <html lang="es">
 <head runat="server">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Try-n-save</title>
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Try-n-save</title>
+	<!--<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>-->
 
-    <link rel="stylesheet" href="<%= ResolveUrl("~/Content/Style.css") %>" />
+	<link rel="stylesheet" href="<%= ResolveUrl("~/Content/Style.css") %>" />
+	<script src="<%= ResolveUrl("~/Scripts/Funciones.js") %>"></script>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-        crossorigin="anonymous"></script>
-
-    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+		crossorigin="anonymous"></script>
 
 
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
-            <nav>
-                <div class="banner w-100 container-fluid">
-                    <div class="row">
-                        <div class="col-md">
-                            <h1 class="title">TRY-N-SAVE</h1>
-                            <p class="sub_title">La tienda de ahorro</p>
-                        </div>
-                        <div class="group col-md">
-                            <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
-                                <g>
-                                    <path
-                                        d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z">
-                                    </path>
-                                </g>
-                            </svg>
-                            <!--<input placeholder="Que estás buscando?" type="search" class="input">-->
-                            <asp:TextBox ID="TbxBusqueda" placeholder="Que estás buscando?" class="input" runat="server"></asp:TextBox>
-                            <!--<button class="B_serch">Buscar</button>-->
-                            <asp:Button ID="Btn_Serch" runat="server" class="B_serch" Text="Buscar" />
-                        </div>
-                        <div class="login col-md">
-                            <img src="./Icon/persona.png" width="10%" class="icon_person">
-                            <a href="#" style="text-decoration: none; color: gray" onclick="mostrarFormulario()">Registrate</a>
-                            <!--<asp:HyperLink ID="HyperRegistrate" style="text-decoration: none; color: gray" onclick="mostrarFormulario()" runat="server">Registrate</asp:HyperLink>-->
-                        </div>
-                    </div>
-                </div>
+	<form id="form1" runat="server">
+		<nav>
+			<div class="banner w-100 container-fluid">
+				<div class="row">
+					<div class="col-md">
+						<h1 class="title">TRY-N-SAVE</h1>
+						<p class="sub_title">La tienda de ahorro</p>
+					</div>
+					<div class="group col-md">
+						<svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
+							<g>
+								<path
+									d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z">
+								</path>
+							</g>
+						</svg>
 
-                <div class="menu">
-                    <ul class="nav justify-content-center text-bg-dark">
-                        <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
-                        <!--<li class="nav-item"><asp:HyperLink class="nav-link" ID="HyperInicio" runat="server">Inicio</asp:HyperLink></li>-->
-                        <li class="nav-item"><a class="nav-link" href="#">Ofertas</a></li>
-                        <!--<li class="nav-item"><asp:HyperLink class="nav-link" ID="HyperOfertas" runat="server">Ofertas</asp:HyperLink></li>-->
-                        <li class="nav-item"><a class="nav-link" href="#">Sucursales</a></li>
-                        <!--<li class="nav-item"><asp:HyperLink class="nav-link" ID="HyperSucursales" runat="server">Sucursales</asp:HyperLink></li>-->
-                    </ul>
-                </div>
-                <div id="registro-form" class="overlay">
-                    <div class="modal-form card" style="width: 600px;">
-                        <h5 class="card-title" style="text-align: center;">Ingresá tus datos en el formulario para canjear tu
-                    premio</h5>
-                        <div class="row">
-                            <div class="form-floating mb-3 mt-4 col-md-6">
-                                <!--<input placeholder="" class="form-control" type="text" id="nombre" name="nombre" required>-->
-                                <asp:TextBox ID="nombre" runat="server" placeholder="" class="form-control" type="text" name="nombre" required></asp:TextBox>
-                                <label for="nombre">Nombre</label>
-                            </div>
-                            <div class="form-floating mb-3 mt-4 col-md-6">
-                                <!--<input placeholder="" class="form-control" type="text" id="apellido" name="apellido" required>-->
-                                <asp:TextBox ID="Apellido" placeholder="" class="form-control" type="text" name="apellido" required runat="server"></asp:TextBox>
-                                <label for="apellido">Apellido</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="form-floating mb-3 mt-3 col-md-4">
-                                <!--<input placeholder="" class="form-control" type="text" id="dni" name="dni" required>-->
-                                <asp:TextBox ID="dni" placeholder="" class="form-control" type="text" name="dni" required runat="server"></asp:TextBox>
-                                <label for="dni">DNI</label>
-                            </div>
-                            <div class="form-floating mb-3 mt-3 col-md-8">
-                                <!--<input placeholder="" class="form-control" type="email" id="mail" name="mail" required>-->
-                                <asp:TextBox ID="mail" placeholder="" class="form-control" type="email" name="mail" required runat="server"></asp:TextBox>
-                                <label for="mail">E-mail</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="form-floating mb-3 mt-3 col-md-4">
-                                <!--<input placeholder="" class="form-control" type="text" id="direccion" name="direccion" required>-->
-                                <asp:TextBox ID="direccion" placeholder="" class="form-control" type="text" name="direccion" required runat="server"></asp:TextBox>
-                                <label for="direccion">Dirección</label>
-                            </div>
-                            <div class="form-floating mb-3 mt-3 col-md-4">
-                                <!--<input placeholder="" class="form-control" type="text" id="ciudad" name="ciudad" required>-->
-                                <asp:TextBox ID="ciudad" placeholder="" class="form-control" type="text" name="ciudad" required runat="server"></asp:TextBox>
-                                <label for="ciudad">Ciudad</label>
-                            </div>
-                            <div class="form-floating mb-3 mt-3 col-md-4">
-                                <!--<input placeholder="" class="form-control" type="text" id="cp" name="cp" required>-->
-                                <asp:TextBox ID="cp" placeholder="" class="form-control" type="text" name="cp" required runat="server"></asp:TextBox>
-                                <label for="cp">Código postal</label>
-                            </div>
-                        </div>
-                        <div class="row" style="text-align: center;">
-                            <div class="col">
-                                <!--<button class="B_serch" style="width: 10vw;">Ingresar</button>-->
-                                <asp:Button ID="B_serch" class="B_serch" style="width: 10vw;" runat="server" Text="Ingresar" />
-                            </div>
-                            <div class="col">
-                                <button class="B_serch " style="width: 10vw;" onclick="cerrarFormulario()">Cerrar</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
+						<asp:TextBox ID="TbxBusqueda" placeholder="Que estás buscando?" class="input" runat="server"></asp:TextBox>
+						<asp:Button ID="Btn_Serch" runat="server" class="B_serch" Text="Buscar" />
+					</div>
 
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
+					<div class="login col-md">
+						<img src="./Icon/persona.png" width="10%" class="icon_person">
+						<asp:LinkButton ID="lnkNombreCliente" runat="server" CssClass="text-decoration-none" OnClientClick="mostrarFormulario(); return false;" ForeColor="Gray" />
 
-            <footer style="background-color: rgb(10, 18, 11); color: rgb(165, 165, 165);">
-                <div class="row links_footer">
-                    <div class="col separador_footer">
-                        <p class="title_footer">Nosotros</p>
-                        <ul class="link_nosotros">
-                            <li><a href="#">Historia</a></li>
-                            <li><a href="#">Misión</a></li>
-                            <li><a href="#">Trabajá con nosotros</a></li>
-                            <li><a href="#">Ayuda</a></li>
-                        </ul>
-                    </div>
-                    <div class="col separador_footer">
-                        <p class="title_footer">Atención al Cliente</p>
-                        <div class="row">
-                            <div class="col" style="margin-left: 20px;">
-                                <img src="./Icon/call.png" width="15%">
-                            </div>
-                            <div class="col" style="margin-left: -150px;">
-                                <p>0810-999-57628</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <p class="title_footer">Seguinos</p>
-                        <a href="#">
-                            <img src="./Icon/logo_FaceBook2.png" width="10%" class="mt-2"></a>
-                        <a href="#">
-                            <img src="./Icon/logo_Instagram2.png" width="10%" class="mt-2"></a>
-                        <a href="#">
-                            <img src="./Icon/logo_Twitter2.png" width="10%" class="mt-2"></a>
-                    </div>
-                </div>
-                <div class="parrafo_footer">
-                    <p>Try-N-Save S.A CUIT 30-53962159-8</p>
-                    <p>Oficina Central: Av. Perón 1972, San Vicente (B1605EHC) Buenos Aires - Argentina</p>
-                    <p>CopyRight © 2025. Todos los Derechos reservados.</p>
-                </div>
-            </footer>
+					</div>
+				</div>
+			</div>
+			<div class="menu">
+				<ul class="nav justify-content-center text-bg-dark">
+					<li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Ofertas</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Sucursales</a></li>
+				</ul>
+			</div>
 
-           <script src="<%= ResolveUrl("~/Scripts/Funciones.js") %>"></script>
-        </div>
-    </form>
+
+			<div id="registro-form" class="overlay">
+				<div class="modal-form card" style="width: 600px;">
+					<!--<div class="card" style="width: 600px;">-->
+					<h5 class="card-title" style="text-align: center;">Ingresá para canjear tu premio</h5>
+
+					<div class="form-floating mb-3 mt-3 col">
+						<asp:TextBox ID="dni" placeholder="" CssClass="form-control" runat="server"></asp:TextBox>
+						<label for="dni">DNI</label>
+					</div>
+					<asp:Label ID="Lblvalidacion" runat="server" Text=""></asp:Label>
+					<div class="row">
+						<div class="form-floating mb-3 mt-4 col-md-6">
+							<asp:TextBox ID="nombre" runat="server" placeholder="" CssClass="form-control"></asp:TextBox>
+							<label for="nombre">Nombre</label>
+						</div>
+						<div class="form-floating mb-3 mt-4 col-md-6">
+							<asp:TextBox ID="Apellido" placeholder="" CssClass="form-control" runat="server"></asp:TextBox>
+							<label for="apellido">Apellido</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-floating mb-3 mt-3 col">
+							<asp:TextBox ID="mail" placeholder="" CssClass="form-control" runat="server"></asp:TextBox>
+							<label for="mail">E-mail</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-floating mb-3 mt-3 col-md-4">
+							<asp:TextBox ID="direccion" placeholder="" CssClass="form-control" runat="server"></asp:TextBox>
+							<label for="direccion">Dirección</label>
+						</div>
+						<div class="form-floating mb-3 mt-3 col-md-4">
+							<asp:TextBox ID="ciudad" placeholder="" CssClass="form-control" runat="server"></asp:TextBox>
+							<label for="ciudad">Ciudad</label>
+						</div>
+						<div class="form-floating mb-3 mt-3 col-md-4">
+							<asp:TextBox ID="cp" placeholder="" CssClass="form-control" runat="server"></asp:TextBox>
+							<label for="cp">Código postal</label>
+						</div>
+					</div>
+
+					<div class="row pt-4" style="text-align: center;">
+						<div class="col">
+							<asp:Button ID="BtnIngresarDatos" CssClass="B_serch" Style="width: 10vw;" runat="server" Text="Ingresar" />
+						</div>
+						<div class="col">
+							<asp:Button ID="BtnCerrar" runat="server" CssClass="B_serch" Style="width: 10vw;" OnClientClick="cerrarFormulario()" Text="Cerrar" />
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</nav>
+
+
+		<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+		</asp:ContentPlaceHolder>
+
+		<footer style="background-color: rgb(10, 18, 11); color: rgb(165, 165, 165);">
+			<div class="row links_footer">
+				<div class="col separador_footer">
+					<p class="title_footer">Nosotros</p>
+					<ul class="link_nosotros">
+						<li><a href="#">Historia</a></li>
+						<li><a href="#">Misión</a></li>
+						<li><a href="#">Trabajá con nosotros</a></li>
+						<li><a href="#">Ayuda</a></li>
+					</ul>
+				</div>
+				<div class="col separador_footer">
+					<p class="title_footer">Atención al Cliente</p>
+					<div class="row">
+						<div class="col" style="margin-left: 20px;">
+							<img src="./Icon/call.png" width="15%">
+						</div>
+						<div class="col" style="margin-left: -150px;">
+							<p>0810-999-57628</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<p class="title_footer">Seguinos</p>
+					<a href="#">
+						<img src="./Icon/logo_FaceBook2.png" width="10%" class="mt-2"></a>
+					<a href="#">
+						<img src="./Icon/logo_Instagram2.png" width="10%" class="mt-2"></a>
+					<a href="#">
+						<img src="./Icon/logo_Twitter2.png" width="10%" class="mt-2"></a>
+				</div>
+			</div>
+			<div class="parrafo_footer">
+				<p>Try-N-Save S.A CUIT 30-53962159-8</p>
+				<p>Oficina Central: Av. Perón 1972, San Vicente (B1605EHC) Buenos Aires - Argentina</p>
+				<p>CopyRight © 2025. Todos los Derechos reservados.</p>
+			</div>
+		</footer>
+
+
+
+	</form>
+
 </body>
 </html>

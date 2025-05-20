@@ -51,40 +51,31 @@ namespace TP_Promo_Web_Equipo10B
         protected global::System.Web.UI.WebControls.Button Btn_Serch;
 
         /// <summary>
-        /// Control HyperRegistrate.
+        /// Control lnkNombreCliente.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperRegistrate;
+        protected global::System.Web.UI.WebControls.LinkButton lnkNombreCliente;
 
         /// <summary>
-        /// Control HyperInicio.
+        /// Control dni.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperInicio;
+        protected global::System.Web.UI.WebControls.TextBox dni;
 
         /// <summary>
-        /// Control HyperOfertas.
+        /// Control Lblvalidacion.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperOfertas;
-
-        /// <summary>
-        /// Control HyperSucursales.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperSucursales;
+        protected global::System.Web.UI.WebControls.Label Lblvalidacion;
 
         /// <summary>
         /// Control nombre.
@@ -103,15 +94,6 @@ namespace TP_Promo_Web_Equipo10B
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox Apellido;
-
-        /// <summary>
-        /// Control dni.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox dni;
 
         /// <summary>
         /// Control mail.
@@ -150,13 +132,22 @@ namespace TP_Promo_Web_Equipo10B
         protected global::System.Web.UI.WebControls.TextBox cp;
 
         /// <summary>
-        /// Control B_serch.
+        /// Control BtnIngresarDatos.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button B_serch;
+        protected global::System.Web.UI.WebControls.Button BtnIngresarDatos;
+
+        /// <summary>
+        /// Control BtnCerrar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtnCerrar;
 
         /// <summary>
         /// Control ContentPlaceHolder1.
