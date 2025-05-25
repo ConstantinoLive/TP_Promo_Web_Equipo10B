@@ -1,18 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="TP_Promo_Web_Equipo10B.WebForm1" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-</asp:Content>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 	<main>
 		
-		<!--Prueba de botones-->
-		<br />
-		<asp:TextBox ID="TxtNombre" runat="server"></asp:TextBox>
-		<asp:Button ID="BtnSaludo" runat="server" OnClick="BtnSaludo_Click" Text="Saludar" />
-		<asp:Label ID="LblHola" runat="server" Text=""></asp:Label>
-		<br />
-		<!--******************-->
-
+		
 		<h3 class="destacado">Destacados del mes</h3>
 
 		<div class="container mt-5 mb-5">
@@ -56,7 +48,7 @@
 							<p class="text-body"><%:Art.Descripcion%></p>
 							<p class="text-marca"><%:Art.Marca%></p>
 						</div>
-						<button class="card-button" onclick="mostrarFormVoucher()">Canjear</button>
+						<button class="card-button" onclick="mostrarFormVoucher();return false;">Canjear</button>
 					</div>
 				</div>
 
@@ -66,7 +58,7 @@
 		<div id="registro-voucher" class="overlay">
 			<div class="modal-form card" style="width: 600px;">
 				<h3 class="card-title mb-3 mt-3" style="text-align: center;">Canjea tu voucher</h3>
-				<asp:TextBox ID="TxbCodigo" placeholder="Código" class="form-control mb-3 mt-3" name="codigo" required runat="server"></asp:TextBox>
+				<asp:TextBox ID="TxbCodigo" placeholder="Código" class="form-control mb-3 mt-3" name="codigo" runat="server"></asp:TextBox>
 				
 				<div class="row mb-3 mt-3" style="text-align: center;">
 					<div class="col">

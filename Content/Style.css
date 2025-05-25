@@ -69,6 +69,16 @@
     margin-left: 15px;
 }
 
+.B_serch_desactivado {
+    background-color: #908e8f;
+    color: white;
+    background-color: #908e8f;
+    border-color: #908e8f;
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin-left: 15px;
+}
+
 .login > a {
     position: absolute;
     margin-left: 1rem;

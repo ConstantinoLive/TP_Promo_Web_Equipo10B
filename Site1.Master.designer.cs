@@ -15,15 +15,6 @@ namespace TP_Promo_Web_Equipo10B
     {
 
         /// <summary>
-        /// Control head.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
-
-        /// <summary>
         /// Control form1.
         /// </summary>
         /// <remarks>
@@ -67,6 +58,33 @@ namespace TP_Promo_Web_Equipo10B
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox dni;
+
+        /// <summary>
+        /// Control BtnIngresarDatos.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtnIngresarDatos;
+
+        /// <summary>
+        /// Control BtnCerrar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtnCerrar;
+
+        /// <summary>
+        /// Control dni2.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox dni2;
 
         /// <summary>
         /// Control Lblvalidacion.
@@ -132,22 +150,31 @@ namespace TP_Promo_Web_Equipo10B
         protected global::System.Web.UI.WebControls.TextBox cp;
 
         /// <summary>
-        /// Control BtnIngresarDatos.
+        /// Control BtnRegistro.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnIngresarDatos;
+        protected global::System.Web.UI.WebControls.Button BtnRegistro;
 
         /// <summary>
-        /// Control BtnCerrar.
+        /// Control BtnIngresarDatos2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnCerrar;
+        protected global::System.Web.UI.WebControls.Button BtnIngresarDatos2;
+
+        /// <summary>
+        /// Control BtnCerrar2.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtnCerrar2;
 
         /// <summary>
         /// Control ContentPlaceHolder1.

@@ -28,10 +28,6 @@ namespace TP_Promo_Web_Equipo10B
             
         }
 
-        protected void BtnSaludo_Click(object sender, EventArgs e)
-        {
-            string nombre=TxtNombre.Text;
-            LblHola.Text ="Hola"+ nombre;
-        }
+       
     }
 }

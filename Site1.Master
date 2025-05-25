@@ -8,8 +8,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Try-n-save</title>
-	<!--<asp:ContentPlaceHolder ID="head" runat="server">
-	</asp:ContentPlaceHolder>-->
+
 
 	<link rel="stylesheet" href="<%= ResolveUrl("~/Content/Style.css") %>" />
 	<script src="<%= ResolveUrl("~/Scripts/Funciones.js") %>"></script>
@@ -62,12 +61,27 @@
 
 			<div id="registro-form" class="overlay">
 				<div class="modal-form card" style="width: 600px;">
-					<!--<div class="card" style="width: 600px;">-->
 					<h5 class="card-title" style="text-align: center;">Ingresá para canjear tu premio</h5>
-
+					<%if (nombreCliente == "Ingresar")
+						{ %>
 					<div class="form-floating mb-3 mt-3 col">
 						<asp:TextBox ID="dni" placeholder="" CssClass="form-control" runat="server"></asp:TextBox>
 						<label for="dni">DNI</label>
+					</div>
+					<div class="row pt-4" style="text-align: center;">
+						<div class="col">
+							<asp:Button ID="BtnIngresarDatos" CssClass="B_serch" Style="width: 10vw;" OnClick="BtnIngresarDatos_Click" runat="server" Text="Ingresar" />
+						</div>
+						<div class="col">
+							<asp:Button ID="BtnCerrar" runat="server" CssClass="B_serch" Style="width: 10vw;" OnClientClick="cerrarFormulario()" Text="Cerrar" />
+						</div>
+					</div>
+					<%}
+						else if (nombreCliente == null)
+						{ %>
+					<div class="form-floating mb-3 mt-3 col">
+						<asp:TextBox ID="dni2" placeholder="" CssClass="form-control" runat="server"></asp:TextBox>
+						<label for="dni2">DNI</label>
 					</div>
 					<asp:Label ID="Lblvalidacion" runat="server" Text=""></asp:Label>
 					<div class="row">
@@ -100,15 +114,24 @@
 							<label for="cp">Código postal</label>
 						</div>
 					</div>
-
 					<div class="row pt-4" style="text-align: center;">
+						<%if (ingresoOK == false)
+							{ %>
 						<div class="col">
-							<asp:Button ID="BtnIngresarDatos" CssClass="B_serch" Style="width: 10vw;" runat="server" Text="Ingresar" />
+							<asp:Button ID="BtnRegistro" CssClass="B_serch" Style="width: 10vw;" OnClick="BtnRegistro_Click" runat="server" Text="Registrate" />
 						</div>
+						<%}
+							else
+							{%>
 						<div class="col">
-							<asp:Button ID="BtnCerrar" runat="server" CssClass="B_serch" Style="width: 10vw;" OnClientClick="cerrarFormulario()" Text="Cerrar" />
+							<asp:Button ID="BtnIngresarDatos2" CssClass="B_serch_desactivado" Style="width: 10vw;" runat="server" Text="Ingresar" Enabled="False" />
+						</div>
+						<%} %>
+						<div class="col">
+							<asp:Button ID="BtnCerrar2" runat="server" CssClass="B_serch" Style="width: 10vw;" OnClientClick="cerrarFormulario()" Text="Cerrar" />
 						</div>
 					</div>
+					<%} %>
 				</div>
 			</div>
 
