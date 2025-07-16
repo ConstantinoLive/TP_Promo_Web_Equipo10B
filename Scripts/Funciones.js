@@ -7,11 +7,17 @@ function cerrarFormulario() {
     document.getElementById('registro-form').classList.remove('active');
 }
 
-function mostrarFormVoucher() {
-    const overlay = document.getElementById('registro-voucher');
-    overlay.classList.add('active');
+function mostrarFormVoucher(idArticulo) {
+    document.getElementById('registro-voucher').classList.add('active');
+    const hidden = document.querySelector('input[type="hidden"][id$="hfIdArticulo"]');
+    if (hidden) hidden.value = idArticulo;
 }
 
+
+
+
+/*
 function cerrarFormVoucher() {
     document.getElementById('registro-voucher').classList.remove('active');
-}
+   
+}*/

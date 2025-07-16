@@ -85,7 +85,7 @@ namespace Negocio
 
             try
             {
-                datos.Consulta("SELECT Documento, Nombre, Apellido, Email, Direccion, Ciudad, CP FROM Clientes WHERE Documento = @DNI");
+                datos.Consulta("SELECT Id, Documento, Nombre, Apellido, Email, Direccion, Ciudad, CP FROM Clientes WHERE Documento = @DNI");
                 datos.SetearParametros("@DNI", dni);
                 datos.EjecutarConsulta();
 
@@ -93,6 +93,7 @@ namespace Negocio
                 {
                     cliente = new Clientes
                     {
+                        Id = (int)datos.Reader["Id"],
                         Documento = (string)datos.Reader["Documento"],
                         Nombre = (string)datos.Reader["Nombre"],
                         Apellido = (string)datos.Reader["Apellido"],

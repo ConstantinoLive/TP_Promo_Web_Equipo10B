@@ -15,6 +15,15 @@ namespace TP_Promo_Web_Equipo10B
     {
 
         /// <summary>
+        /// Control hfIdArticulo.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HiddenField hfIdArticulo;
+
+        /// <summary>
         /// Control TxbCodigo.
         /// </summary>
         /// <remarks>
@@ -24,6 +33,15 @@ namespace TP_Promo_Web_Equipo10B
         protected global::System.Web.UI.WebControls.TextBox TxbCodigo;
 
         /// <summary>
+        /// Control LblAlertaVoucher.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblAlertaVoucher;
+
+        /// <summary>
         /// Control BtnIngresar.
         /// </summary>
         /// <remarks>
@@ -31,5 +49,23 @@ namespace TP_Promo_Web_Equipo10B
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BtnIngresar;
+
+        /// <summary>
+        /// Control BtnIngresar2.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtnIngresar2;
+
+        /// <summary>
+        /// Control BtnCerrar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtnCerrar;
     }
 }

@@ -3,13 +3,9 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 	<main>
-		
-		
 		<h3 class="destacado">Destacados del mes</h3>
-
 		<div class="container mt-5 mb-5">
 			<div class="row">
-
 				<%
 					foreach (Dominio.Articulos Art in ListaArticulos)
 					{
@@ -48,29 +44,58 @@
 							<p class="text-body"><%:Art.Descripcion%></p>
 							<p class="text-marca"><%:Art.Marca%></p>
 						</div>
-						<button class="card-button" onclick="mostrarFormVoucher();return false;">Canjear</button>
+						<button class="card-button" onclick="mostrarFormVoucher(<%= Art.IdProductos %>);return false;">Canjear</button>
 					</div>
 				</div>
 
 				<% }%>
 			</div>
 		</div>
-		<div id="registro-voucher" class="overlay">
-			<div class="modal-form card" style="width: 600px;">
-				<h3 class="card-title mb-3 mt-3" style="text-align: center;">Canjea tu voucher</h3>
-				<asp:TextBox ID="TxbCodigo" placeholder="Código" class="form-control mb-3 mt-3" name="codigo" runat="server"></asp:TextBox>
-				
-				<div class="row mb-3 mt-3" style="text-align: center;">
-					<div class="col">
-						<asp:Button ID="BtnIngresar" class="B_serch" Style="width: 150px;" runat="server" Text="Ingresar" />
+		<contenttemplate>
+			<div id="registro-voucher" class="overlay">
+				<div class="modal-form card" style="width: 600px;">
+					<asp:HiddenField ID="hfIdArticulo" runat="server" />
+					<h3 class="card-title mb-3 mt-3" style="text-align: center;">Canjea tu voucher</h3>
+					<asp:TextBox ID="TxbCodigo" placeholder="Código" class="form-control mb-3 mt-3" name="codigo" runat="server"></asp:TextBox>
+					<asp:Label ID="LblAlertaVoucher" runat="server"></asp:Label>
+					<div class="row mb-3 mt-3" style="text-align: center;">
+						<%if (!canje)
+							{ %>
+						<div class="col">
+							<asp:Button ID="BtnIngresar" CssClass="B_serch" Style="width: 150px;" runat="server" Text="Ingresar" OnClick="BtnIngresar_Click" />
+						</div>
+						<%}
+							else
+							{ %>
+						<div class="col">
+							<asp:Button ID="BtnIngresar2" CssClass="B_serch_desactivado" Style="width: 150px;" runat="server" Text="Ingresar" Enabled="false" />
+						</div>
+						<%} %>
+						<div class="col">
+							<!--<button type="button" class="B_serch " style="width: 150px;" onclick="cerrarFormVoucher()">Cerrar</button>-->
+							<asp:Button ID="BtnCerrar" CssClass="B_serch " style="width: 150px;" OnClientClick="cerrarFormVoucher()" OnClick="BtnCerrar_Click" runat="server" Text="Cerrar" />
+						</div>
 					</div>
-					<div class="col">
-						<button class="B_serch " style="width: 150px;" onclick="cerrarFormVoucher()">Cerrar</button>
-					</div>
+					<p class="card-text" style="font-size: 12px; text-align: center;">Ingresá el código que te dieron con tu compra. Podrás obtener importantes premios</p>
 				</div>
-				<p class="card-text" style="font-size: 12px; text-align: center;">Ingresá el código que te dieron con tu compra. Podrás obtener importantes premios</p>
 			</div>
-		</div>
+		</contenttemplate>
 	</main>
+	<script src="<%= ResolveUrl("~/Scripts/Funciones.js") %>"></script>
+
+	<script type="text/javascript">
+		function cerrarFormVoucher() {
+
+			document.getElementById('<%= TxbCodigo.ClientID %>').value = "";
+
+		document.getElementById('<%= LblAlertaVoucher.ClientID %>').innerText = "";
+
+			document.getElementById('<%= hfIdArticulo.ClientID %>').value = "";
+
+			document.getElementById('registro-voucher').classList.remove('active');
+		}
+
+		
+	</script>
 </asp:Content>
 

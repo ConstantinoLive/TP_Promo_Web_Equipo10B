@@ -7,3 +7,12 @@ D:\Estudio\UTN\Programacion III Ejercicios\TP\TP_Promo_Web_Equipo10B\Negocio\bin
 D:\Estudio\UTN\Programacion III Ejercicios\TP\TP_Promo_Web_Equipo10B\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 D:\Estudio\UTN\Programacion III Ejercicios\TP\TP_Promo_Web_Equipo10B\Negocio\obj\Debug\Negocio.dll
 D:\Estudio\UTN\Programacion III Ejercicios\TP\TP_Promo_Web_Equipo10B\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Usuario\Downloads\TP_Promo_Web_Equipo10B-master\TP_Promo_Web_Equipo10B-master\Negocio\bin\Debug\Negocio.dll
+C:\Users\Usuario\Downloads\TP_Promo_Web_Equipo10B-master\TP_Promo_Web_Equipo10B-master\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Usuario\Downloads\TP_Promo_Web_Equipo10B-master\TP_Promo_Web_Equipo10B-master\Negocio\bin\Debug\Dominio.dll
+C:\Users\Usuario\Downloads\TP_Promo_Web_Equipo10B-master\TP_Promo_Web_Equipo10B-master\Negocio\bin\Debug\Dominio.pdb
+C:\Users\Usuario\Downloads\TP_Promo_Web_Equipo10B-master\TP_Promo_Web_Equipo10B-master\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Usuario\Downloads\TP_Promo_Web_Equipo10B-master\TP_Promo_Web_Equipo10B-master\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Downloads\TP_Promo_Web_Equipo10B-master\TP_Promo_Web_Equipo10B-master\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Usuario\Downloads\TP_Promo_Web_Equipo10B-master\TP_Promo_Web_Equipo10B-master\Negocio\obj\Debug\Negocio.dll
+C:\Users\Usuario\Downloads\TP_Promo_Web_Equipo10B-master\TP_Promo_Web_Equipo10B-master\Negocio\obj\Debug\Negocio.pdb

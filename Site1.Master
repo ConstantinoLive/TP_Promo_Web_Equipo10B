@@ -46,7 +46,6 @@
 					<div class="login col-md">
 						<img src="./Icon/persona.png" width="10%" class="icon_person">
 						<asp:LinkButton ID="lnkNombreCliente" runat="server" CssClass="text-decoration-none" OnClientClick="mostrarFormulario(); return false;" ForeColor="Gray" />
-
 					</div>
 				</div>
 			</div>
@@ -62,13 +61,19 @@
 			<div id="registro-form" class="overlay">
 				<div class="modal-form card" style="width: 600px;">
 					<h5 class="card-title" style="text-align: center;">Ingresá para canjear tu premio</h5>
-					<%if (nombreCliente == "Ingresar")
-						{ %>
+					
 					<div class="form-floating mb-3 mt-3 col">
 						<asp:TextBox ID="dni" placeholder="" CssClass="form-control" runat="server"></asp:TextBox>
 						<label for="dni">DNI</label>
 					</div>
-					<div class="row pt-4" style="text-align: center;">
+					<div class="form-check mb-3">
+						<asp:CheckBox ID="CheckRegistrese" CssClass="form-check-input" runat="server" OnCheckedChanged="CheckRegistrese_CheckedChanged" AutoPostBack="true" />
+						<label class="form-check-label" for="CheckRegistrese">Registrarse</label>
+					</div>
+					<asp:Label ID="Lblvalidacion" runat="server" Text=""></asp:Label>
+					
+					<div id="BtnsIngresar" runat="server" >
+					<div class="row pt-4" style="text-align: center;" >
 						<div class="col">
 							<asp:Button ID="BtnIngresarDatos" CssClass="B_serch" Style="width: 10vw;" OnClick="BtnIngresarDatos_Click" runat="server" Text="Ingresar" />
 						</div>
@@ -76,14 +81,9 @@
 							<asp:Button ID="BtnCerrar" runat="server" CssClass="B_serch" Style="width: 10vw;" OnClientClick="cerrarFormulario()" Text="Cerrar" />
 						</div>
 					</div>
-					<%}
-						else if (nombreCliente == null)
-						{ %>
-					<div class="form-floating mb-3 mt-3 col">
-						<asp:TextBox ID="dni2" placeholder="" CssClass="form-control" runat="server"></asp:TextBox>
-						<label for="dni2">DNI</label>
-					</div>
-					<asp:Label ID="Lblvalidacion" runat="server" Text=""></asp:Label>
+						</div>
+					
+						<div id="formularioRegistroCompleto" runat="server">
 					<div class="row">
 						<div class="form-floating mb-3 mt-4 col-md-6">
 							<asp:TextBox ID="nombre" runat="server" placeholder="" CssClass="form-control"></asp:TextBox>
@@ -114,27 +114,32 @@
 							<label for="cp">Código postal</label>
 						</div>
 					</div>
-					<div class="row pt-4" style="text-align: center;">
-						<%if (ingresoOK == false)
-							{ %>
-						<div class="col">
-							<asp:Button ID="BtnRegistro" CssClass="B_serch" Style="width: 10vw;" OnClick="BtnRegistro_Click" runat="server" Text="Registrate" />
-						</div>
-						<%}
-							else
-							{%>
-						<div class="col">
-							<asp:Button ID="BtnIngresarDatos2" CssClass="B_serch_desactivado" Style="width: 10vw;" runat="server" Text="Ingresar" Enabled="False" />
-						</div>
-						<%} %>
-						<div class="col">
-							<asp:Button ID="BtnCerrar2" runat="server" CssClass="B_serch" Style="width: 10vw;" OnClientClick="cerrarFormulario()" Text="Cerrar" />
-						</div>
-					</div>
-					<%} %>
+				
+						
+						<div class="row pt-4" style="text-align: center;">
+				<%if (ingresoOK == false)
+					{ %>
+				<div class="col">
+					<asp:Button ID="BtnRegistro" CssClass="B_serch" Style="width: 10vw;" OnClick="BtnRegistro_Click" runat="server" Text="Registrate" />
+				</div>
+				<%}
+					else
+					{%>
+				<div class="col">
+					<!--<asp:Button ID="BtnIngresarDatos2" CssClass="B_serch_desactivado" Style="width: 10vw;" runat="server" Text="Ingresar" Enabled="False" />-->
+					<asp:Button ID="BtnSalir" CssClass="B_serch" Style="width: 10vw;" runat="server" OnClick="BtnSalir_Click" Text="Salir" />
+				</div>
+				<%} %>
+				<div class="col">
+					<asp:Button ID="BtnCerrar2" runat="server" CssClass="B_serch" Style="width: 10vw;" OnClientClick="cerrarFormulario()" Text="Cerrar" />
+				</div>
+</div>
+						
+				</div>
+					
+					
 				</div>
 			</div>
-
 		</nav>
 
 

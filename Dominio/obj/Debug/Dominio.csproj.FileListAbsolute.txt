@@ -4,3 +4,9 @@ D:\Estudio\UTN\Programacion III Ejercicios\TP\TP_Promo_Web_Equipo10B\Dominio\obj
 D:\Estudio\UTN\Programacion III Ejercicios\TP\TP_Promo_Web_Equipo10B\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 D:\Estudio\UTN\Programacion III Ejercicios\TP\TP_Promo_Web_Equipo10B\Dominio\obj\Debug\Dominio.dll
 D:\Estudio\UTN\Programacion III Ejercicios\TP\TP_Promo_Web_Equipo10B\Dominio\obj\Debug\Dominio.pdb
+C:\Users\Usuario\Downloads\TP_Promo_Web_Equipo10B-master\TP_Promo_Web_Equipo10B-master\Dominio\bin\Debug\Dominio.dll
+C:\Users\Usuario\Downloads\TP_Promo_Web_Equipo10B-master\TP_Promo_Web_Equipo10B-master\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Usuario\Downloads\TP_Promo_Web_Equipo10B-master\TP_Promo_Web_Equipo10B-master\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\Usuario\Downloads\TP_Promo_Web_Equipo10B-master\TP_Promo_Web_Equipo10B-master\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Downloads\TP_Promo_Web_Equipo10B-master\TP_Promo_Web_Equipo10B-master\Dominio\obj\Debug\Dominio.dll
+C:\Users\Usuario\Downloads\TP_Promo_Web_Equipo10B-master\TP_Promo_Web_Equipo10B-master\Dominio\obj\Debug\Dominio.pdb

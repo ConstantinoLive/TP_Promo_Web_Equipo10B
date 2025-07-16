@@ -60,6 +60,33 @@ namespace TP_Promo_Web_Equipo10B
         protected global::System.Web.UI.WebControls.TextBox dni;
 
         /// <summary>
+        /// Control CheckRegistrese.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox CheckRegistrese;
+
+        /// <summary>
+        /// Control Lblvalidacion.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Lblvalidacion;
+
+        /// <summary>
+        /// Control BtnsIngresar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl BtnsIngresar;
+
+        /// <summary>
         /// Control BtnIngresarDatos.
         /// </summary>
         /// <remarks>
@@ -78,22 +105,13 @@ namespace TP_Promo_Web_Equipo10B
         protected global::System.Web.UI.WebControls.Button BtnCerrar;
 
         /// <summary>
-        /// Control dni2.
+        /// Control formularioRegistroCompleto.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox dni2;
-
-        /// <summary>
-        /// Control Lblvalidacion.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Lblvalidacion;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl formularioRegistroCompleto;
 
         /// <summary>
         /// Control nombre.
@@ -166,6 +184,15 @@ namespace TP_Promo_Web_Equipo10B
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BtnIngresarDatos2;
+
+        /// <summary>
+        /// Control BtnSalir.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtnSalir;
 
         /// <summary>
         /// Control BtnCerrar2.
