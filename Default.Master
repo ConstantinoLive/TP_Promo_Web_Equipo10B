@@ -1,0 +1,70 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="TP_Promo_Web_Equipo10B.Default" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    <h3 class="destacado">Destacados del mes</h3>
+
+<div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col">
+                <div class="card ">
+                    <div class="card-details">
+                        <p class="text-title">Card title</p>
+                        <p class="text-body">Here are the details of the card</p>
+                    </div>
+                    <button class="card-button" onclick="mostrarFormVoucher()">Canjear</button>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card ">
+                    <div class="card-details">
+                        <p class="text-title">Card title</p>
+                        <p class="text-body">Here are the details of the card</p>
+                    </div>
+                    <button class="card-button" onclick="mostrarFormVoucher()">Canjear</button>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card ">
+                    <div class="card-details">
+                        <p class="text-title">Card title</p>
+                        <p class="text-body">Here are the details of the card</p>
+                    </div>
+                    <button class="card-button" onclick="mostrarFormVoucher()">Canjear</button>
+                </div>
+            </div>
+        </div>
+</div>
+    <div id="registro-voucher" class="overlay">
+        <div class="modal-form card" style="width: 600px;">
+            <h3 class="card-title mb-3 mt-3" style="text-align: center;">Canjea tu voucher</h3>
+            <!--<input placeholder="Código" class="form-control mb-3 mt-3" id="codigo" name="codigo" required>-->
+            <div class="row mb-3 mt-3" style="text-align: center;">
+                <div class="col">
+                    <button class="B_serch" style="width: 150px;" >Ingresar</button>
+                </div>
+                <div class="col">
+                    <button class="B_serch " style="width: 150px;" onclick="cerrarFormVoucher()">Cerrar</button>
+                </div>
+            </div>
+            <p class="card-text" style="font-size: 12px; text-align: center;">Ingresá el código que te dieron con tu compra. Podrás obtener importantes premios</p>
+        </div>
+    </div>
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

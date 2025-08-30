@@ -54,7 +54,6 @@ D:\Estudio\UTN\Programacion III Ejercicios\TP\TP_Promo_Web_Equipo10B\bin\Microso
 D:\Estudio\UTN\Programacion III Ejercicios\TP\TP_Promo_Web_Equipo10B\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\Estudio\UTN\Programacion III Ejercicios\TP\TP_Promo_Web_Equipo10B\obj\Debug\TP_Promo_Web_Equipo10B.csproj.AssemblyReference.cache
 D:\Estudio\UTN\Programacion III Ejercicios\TP\TP_Promo_Web_Equipo10B\obj\Debug\TP_Promo_Web_Equipo10B.csproj.CoreCompileInputs.cache
-D:\Estudio\UTN\Programacion III Ejercicios\TP\TP_Promo_Web_Equipo10B\obj\Debug\TP_Promo_Web_Equipo10B.csproj.CopyComplete
 D:\Estudio\UTN\Programacion III Ejercicios\TP\TP_Promo_Web_Equipo10B\obj\Debug\TP_Promo_Web_Equipo10B.dll
 D:\Estudio\UTN\Programacion III Ejercicios\TP\TP_Promo_Web_Equipo10B\obj\Debug\TP_Promo_Web_Equipo10B.pdb
 D:\Estudio\UTN\Programacion III Ejercicios\TP\TP_Promo_Web_Equipo10B\bin\Dominio.dll
@@ -124,3 +123,4 @@ C:\Users\Usuario\Downloads\TP_Promo_Web_Equipo10B-master\TP_Promo_Web_Equipo10B-
 C:\Users\Usuario\Downloads\TP_Promo_Web_Equipo10B-master\TP_Promo_Web_Equipo10B-master\obj\Debug\TP_Promo_Web_Equipo10B.csproj.CopyComplete
 C:\Users\Usuario\Downloads\TP_Promo_Web_Equipo10B-master\TP_Promo_Web_Equipo10B-master\obj\Debug\TP_Promo_Web_Equipo10B.dll
 C:\Users\Usuario\Downloads\TP_Promo_Web_Equipo10B-master\TP_Promo_Web_Equipo10B-master\obj\Debug\TP_Promo_Web_Equipo10B.pdb
+D:\Estudio\UTN\Programacion III Ejercicios\TP\TP_Promo_Web_Equipo10B\obj\Debug\TP_Promo.658443C7.Up2Date

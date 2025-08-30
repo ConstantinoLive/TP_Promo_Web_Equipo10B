@@ -4,7 +4,6 @@ D:\Estudio\UTN\Programacion III Ejercicios\TP\TP_Promo_Web_Equipo10B\Negocio\bin
 D:\Estudio\UTN\Programacion III Ejercicios\TP\TP_Promo_Web_Equipo10B\Negocio\bin\Debug\Negocio.pdb
 D:\Estudio\UTN\Programacion III Ejercicios\TP\TP_Promo_Web_Equipo10B\Negocio\bin\Debug\Dominio.dll
 D:\Estudio\UTN\Programacion III Ejercicios\TP\TP_Promo_Web_Equipo10B\Negocio\bin\Debug\Dominio.pdb
-D:\Estudio\UTN\Programacion III Ejercicios\TP\TP_Promo_Web_Equipo10B\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 D:\Estudio\UTN\Programacion III Ejercicios\TP\TP_Promo_Web_Equipo10B\Negocio\obj\Debug\Negocio.dll
 D:\Estudio\UTN\Programacion III Ejercicios\TP\TP_Promo_Web_Equipo10B\Negocio\obj\Debug\Negocio.pdb
 C:\Users\Usuario\Downloads\TP_Promo_Web_Equipo10B-master\TP_Promo_Web_Equipo10B-master\Negocio\bin\Debug\Negocio.dll
@@ -16,3 +15,4 @@ C:\Users\Usuario\Downloads\TP_Promo_Web_Equipo10B-master\TP_Promo_Web_Equipo10B-
 C:\Users\Usuario\Downloads\TP_Promo_Web_Equipo10B-master\TP_Promo_Web_Equipo10B-master\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 C:\Users\Usuario\Downloads\TP_Promo_Web_Equipo10B-master\TP_Promo_Web_Equipo10B-master\Negocio\obj\Debug\Negocio.dll
 C:\Users\Usuario\Downloads\TP_Promo_Web_Equipo10B-master\TP_Promo_Web_Equipo10B-master\Negocio\obj\Debug\Negocio.pdb
+D:\Estudio\UTN\Programacion III Ejercicios\TP\TP_Promo_Web_Equipo10B\Negocio\obj\Debug\Negocio.csproj.Up2Date

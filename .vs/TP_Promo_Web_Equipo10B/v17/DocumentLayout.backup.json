@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Estudio\\UTN\\Programacion III Ejercicios\\TP\\TP_Promo_Web_Equipo10B\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEEFA5-7620-442D-8E0B-1CB44D38D466}|TP_Promo_Web_Equipo10B.csproj|D:\\Estudio\\UTN\\Programacion III Ejercicios\\TP\\TP_Promo_Web_Equipo10B\\site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{8DBEEFA5-7620-442D-8E0B-1CB44D38D466}|TP_Promo_Web_Equipo10B.csproj|solutionrelative:site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEEFA5-7620-442D-8E0B-1CB44D38D466}|TP_Promo_Web_Equipo10B.csproj|D:\\Estudio\\UTN\\Programacion III Ejercicios\\TP\\TP_Promo_Web_Equipo10B\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8DBEEFA5-7620-442D-8E0B-1CB44D38D466}|TP_Promo_Web_Equipo10B.csproj|solutionrelative:default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEEFA5-7620-442D-8E0B-1CB44D38D466}|TP_Promo_Web_Equipo10B.csproj|d:\\estudio\\utn\\programacion iii ejercicios\\tp\\tp_promo_web_equipo10b\\content\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8DBEEFA5-7620-442D-8E0B-1CB44D38D466}|TP_Promo_Web_Equipo10B.csproj|solutionrelative:content\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEEFA5-7620-442D-8E0B-1CB44D38D466}|TP_Promo_Web_Equipo10B.csproj|D:\\Estudio\\UTN\\Programacion III Ejercicios\\TP\\TP_Promo_Web_Equipo10B\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBEEFA5-7620-442D-8E0B-1CB44D38D466}|TP_Promo_Web_Equipo10B.csproj|solutionrelative:default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEEFA5-7620-442D-8E0B-1CB44D38D466}|TP_Promo_Web_Equipo10B.csproj|D:\\Estudio\\UTN\\Programacion III Ejercicios\\TP\\TP_Promo_Web_Equipo10B\\site1.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBEEFA5-7620-442D-8E0B-1CB44D38D466}|TP_Promo_Web_Equipo10B.csproj|solutionrelative:site1.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A56DAE-0988-44F7-B0B8-ADF706EEAC45}|Negocio\\Negocio.csproj|D:\\Estudio\\UTN\\Programacion III Ejercicios\\TP\\TP_Promo_Web_Equipo10B\\negocio\\vouchersdatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A56DAE-0988-44F7-B0B8-ADF706EEAC45}|Negocio\\Negocio.csproj|solutionrelative:negocio\\vouchersdatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEEFA5-7620-442D-8E0B-1CB44D38D466}|TP_Promo_Web_Equipo10B.csproj|D:\\Estudio\\UTN\\Programacion III Ejercicios\\TP\\TP_Promo_Web_Equipo10B\\scripts\\funciones.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8DBEEFA5-7620-442D-8E0B-1CB44D38D466}|TP_Promo_Web_Equipo10B.csproj|solutionrelative:scripts\\funciones.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E101E2-F2E3-4737-BCAB-1123796787F0}|Dominio\\Dominio.csproj|D:\\Estudio\\UTN\\Programacion III Ejercicios\\TP\\TP_Promo_Web_Equipo10B\\dominio\\vouchers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E101E2-F2E3-4737-BCAB-1123796787F0}|Dominio\\Dominio.csproj|solutionrelative:dominio\\vouchers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A56DAE-0988-44F7-B0B8-ADF706EEAC45}|Negocio\\Negocio.csproj|D:\\Estudio\\UTN\\Programacion III Ejercicios\\TP\\TP_Promo_Web_Equipo10B\\negocio\\clientesdatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A56DAE-0988-44F7-B0B8-ADF706EEAC45}|Negocio\\Negocio.csproj|solutionrelative:negocio\\clientesdatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E101E2-F2E3-4737-BCAB-1123796787F0}|Dominio\\Dominio.csproj|D:\\Estudio\\UTN\\Programacion III Ejercicios\\TP\\TP_Promo_Web_Equipo10B\\dominio\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E101E2-F2E3-4737-BCAB-1123796787F0}|Dominio\\Dominio.csproj|solutionrelative:dominio\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Vouchers.cs",
+              "DocumentMoniker": "D:\\Estudio\\UTN\\Programacion III Ejercicios\\TP\\TP_Promo_Web_Equipo10B\\Dominio\\Vouchers.cs",
+              "RelativeDocumentMoniker": "Dominio\\Vouchers.cs",
+              "ToolTip": "D:\\Estudio\\UTN\\Programacion III Ejercicios\\TP\\TP_Promo_Web_Equipo10B\\Dominio\\Vouchers.cs",
+              "RelativeToolTip": "Dominio\\Vouchers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T20:01:26.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Site1.Master.cs",
+              "DocumentMoniker": "D:\\Estudio\\UTN\\Programacion III Ejercicios\\TP\\TP_Promo_Web_Equipo10B\\Site1.Master.cs",
+              "RelativeDocumentMoniker": "Site1.Master.cs",
+              "ToolTip": "D:\\Estudio\\UTN\\Programacion III Ejercicios\\TP\\TP_Promo_Web_Equipo10B\\Site1.Master.cs",
+              "RelativeToolTip": "Site1.Master.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwIMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T20:01:27.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "D:\\Estudio\\UTN\\Programacion III Ejercicios\\TP\\TP_Promo_Web_Equipo10B\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "Default.aspx.cs",
+              "ToolTip": "D:\\Estudio\\UTN\\Programacion III Ejercicios\\TP\\TP_Promo_Web_Equipo10B\\Default.aspx.cs",
+              "RelativeToolTip": "Default.aspx.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAkwHYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T20:01:27.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Funciones.js",
+              "DocumentMoniker": "D:\\Estudio\\UTN\\Programacion III Ejercicios\\TP\\TP_Promo_Web_Equipo10B\\Scripts\\Funciones.js",
+              "RelativeDocumentMoniker": "Scripts\\Funciones.js",
+              "ToolTip": "D:\\Estudio\\UTN\\Programacion III Ejercicios\\TP\\TP_Promo_Web_Equipo10B\\Scripts\\Funciones.js",
+              "RelativeToolTip": "Scripts\\Funciones.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-08T20:01:27.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "D:\\Estudio\\UTN\\Programacion III Ejercicios\\TP\\TP_Promo_Web_Equipo10B\\Default.aspx",
+              "RelativeDocumentMoniker": "Default.aspx",
+              "ToolTip": "D:\\Estudio\\UTN\\Programacion III Ejercicios\\TP\\TP_Promo_Web_Equipo10B\\Default.aspx",
+              "RelativeToolTip": "Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-08T20:01:27.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Style.css",
+              "DocumentMoniker": "D:\\Estudio\\UTN\\Programacion III Ejercicios\\TP\\TP_Promo_Web_Equipo10B\\Content\\Style.css",
+              "RelativeDocumentMoniker": "Content\\Style.css",
+              "ToolTip": "D:\\Estudio\\UTN\\Programacion III Ejercicios\\TP\\TP_Promo_Web_Equipo10B\\Content\\Style.css",
+              "RelativeToolTip": "Content\\Style.css",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAAANMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-08T20:01:26.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Site1.Master",
+              "DocumentMoniker": "D:\\Estudio\\UTN\\Programacion III Ejercicios\\TP\\TP_Promo_Web_Equipo10B\\Site1.Master",
+              "RelativeDocumentMoniker": "Site1.Master",
+              "ToolTip": "D:\\Estudio\\UTN\\Programacion III Ejercicios\\TP\\TP_Promo_Web_Equipo10B\\Site1.Master*",
+              "RelativeToolTip": "Site1.Master*",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-08T20:01:27.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VouchersDatos.cs",
+              "DocumentMoniker": "D:\\Estudio\\UTN\\Programacion III Ejercicios\\TP\\TP_Promo_Web_Equipo10B\\Negocio\\VouchersDatos.cs",
+              "RelativeDocumentMoniker": "Negocio\\VouchersDatos.cs",
+              "ToolTip": "D:\\Estudio\\UTN\\Programacion III Ejercicios\\TP\\TP_Promo_Web_Equipo10B\\Negocio\\VouchersDatos.cs",
+              "RelativeToolTip": "Negocio\\VouchersDatos.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAQwDYAAACdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T22:55:26.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClientesDatos.cs",
+              "DocumentMoniker": "D:\\Estudio\\UTN\\Programacion III Ejercicios\\TP\\TP_Promo_Web_Equipo10B\\Negocio\\ClientesDatos.cs",
+              "RelativeDocumentMoniker": "Negocio\\ClientesDatos.cs",
+              "ToolTip": "D:\\Estudio\\UTN\\Programacion III Ejercicios\\TP\\TP_Promo_Web_Equipo10B\\Negocio\\ClientesDatos.cs",
+              "RelativeToolTip": "Negocio\\ClientesDatos.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAYwFcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T21:29:01.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Clientes.cs",
+              "DocumentMoniker": "D:\\Estudio\\UTN\\Programacion III Ejercicios\\TP\\TP_Promo_Web_Equipo10B\\Dominio\\Clientes.cs",
+              "RelativeDocumentMoniker": "Dominio\\Clientes.cs",
+              "ToolTip": "D:\\Estudio\\UTN\\Programacion III Ejercicios\\TP\\TP_Promo_Web_Equipo10B\\Dominio\\Clientes.cs",
+              "RelativeToolTip": "Dominio\\Clientes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T20:01:26.901Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
